@@ -19,7 +19,7 @@ const traverseDirectory = (dir) => {
             if(fs.statSync(dir+'/'+file).isDirectory()&&file.substring(file.length-3)!='app'){
                 traverseDirectory(dir+'/'+file)
             }
-            else if(file == '.DS_Store'||file.substring(file.length-3)!='app'){}
+            else if(file == '.DS_Store'||file.substring(file.length-3)=='app'){}
             else{
             files.push(dir+'/'+file)
         }

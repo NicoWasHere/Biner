@@ -9,10 +9,11 @@
   },
   "devDependencies": {
     "electron": "^7.1.7",
-    "utf-8-validate": "^5.0.2",
     "electron-packager": "^14.2.0"
   },
   "author": "Nico",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "utf-8-validate": "^5.0.2"
+  }
 }
