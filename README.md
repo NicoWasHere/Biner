@@ -1,4 +1,7 @@
 # Biner
+<img width="150"  src="static/icon.png">
+
+
 A tool to help clean up filesystems by speeding up the process of judging each file.
 
 This program was created to act as a more efficient solution to cleaning up messy file systems.
