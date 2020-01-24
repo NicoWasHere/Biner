@@ -1,0 +1,31 @@
+/* homepage.css -> styles for the homepage */
+body{
+    font-family: 'Geneva';
+    text-align: center;
+    letter-spacing: 2px;
+    margin:0
+}
+#buttonLabel{
+    font-size: 30px;
+    width: 100vw;
+    height: 100vh;
+    background: red;
+}
+
+div{
+ margin-top: 130px;
+}
+
+#button:hover{
+    color: lightsalmon;
+}
+
+#getButton{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+    font-size: 16px;
+}
